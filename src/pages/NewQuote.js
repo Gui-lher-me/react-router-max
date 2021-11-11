@@ -2,9 +2,9 @@
 
 const NewQuote = () => {
     return (
-        <div>
+        <h1>
             New Quote Page
-        </div>
+        </h1>
     )
 }
 

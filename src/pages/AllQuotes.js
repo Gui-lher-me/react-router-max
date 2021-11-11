@@ -2,9 +2,9 @@
 
 const AllQuotes = () => {
     return (
-        <div>
+        <h1>
             All Quotes Page
-        </div>
+        </h1>
     )
 }
 
