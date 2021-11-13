@@ -13,6 +13,7 @@ function App() {
           <Route path="/quotes/:quoteId" component={QuoteDetail}/>
           <Route path="/new-quote" component={NewQuote}/>
           <Route exact path="/" render={() => <Redirect to="/quotes" />}/>
+          <Route path="*" render={() => <p className="centered">Page not found!</p>} />
         </Switch>
       </Layout>
     </BrowserRouter>
