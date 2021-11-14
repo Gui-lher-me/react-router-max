@@ -3,7 +3,7 @@ import AllQuotes from "./pages/AllQuotes"
 import NewQuote from "./pages/NewQuote"
 import QuoteDetail from "./pages/QuoteDetail"
 import Layout from "./components/layout/Layout"
-
+// main route definition
 function App() {
   return (
     <BrowserRouter>
